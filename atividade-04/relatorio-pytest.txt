@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Gabriel\Downloads\Atividade_4_LocalEats\atividade-04
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.15.1
+collecting ... collected 4 items
+
+tests/test_localeats.py::test_abrir_formulario_de_cadastro PASSED        [ 25%]
+tests/test_regras_localeats.py::test_pedido_de_trinta_reais_atinge_o_minimo PASSED [ 50%]
+tests/test_regras_localeats.py::test_pedido_abaixo_do_minimo_e_rejeitado PASSED [ 75%]
+tests/test_regras_localeats.py::test_pedido_negativo_gera_erro PASSED    [100%]
+
+============================== 4 passed in 1.56s ==============================
